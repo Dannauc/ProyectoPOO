@@ -13,7 +13,7 @@ Por otro lado, uno de los componentes más importantes de este proyecto es la po
 La búsqueda y filtrado de libros, será otro de los aspectos clave del sistema, dado que permitirá, tanto a los empleados como a los clientes, acceder rápidamente a los libros que están buscando, bien por título, bien por autor, bien por categoría o incluso por precio. El poder filtrar por novedades o bien por ofertas, hará que la experiencia del usuario final se vea favorecida en cuanto a la compra de artículos destacados.
 Este sistema de gestión está diseñado para ser extensible y escalable, mediante la utilización de tecnologías tales como lenguajes de programación orientados a objetos (Java, C++ o Python), bases de datos relacionales (MySQL o SQLite), lo que le permitirá, además, alcanzar su eficiencia y capacidad de manejo de grandes volúmenes de datos. Además, se contempla la posibilidad de integrar una interfaz gráfica amigable que haga más intuitiva la interacción con el sistema, facilitando su uso por parte de los empleados de la librería, incluso aquellos con menos experiencia en tecnología.
 
-Objetivos principales 
+## Objetivos principales 
 
 -La optimización de los recursos es el objetivo principal
 Mantenga los niveles de inventario para evitar el exceso y la pérdida de productos, lo que ayuda a las librerías a ser rentables y atraer buenos clientes
@@ -35,13 +35,13 @@ Se debe capacitar adecuadamente al personal en sistema de gestión de inventario
 
 La librería se beneficiará de estos objetivos no sólo en términos de eficiencia operativa sino también en términos de atención al cliente y optimización de recursos
 
-Funciones principales 
+## Funciones principales 
 
 Las principales funciones de un sistema de gestión de inventario para una librería incluyen lo siguiente:
 
 Control del stock, realizando un seguimiento del inventario disponible, incluida la cantidad de cada libro en existencia, para garantizar que se mantengan niveles adecuados de productos.
 
- Administración de compras, registrando y controlando los pedidos de compra a proveedores, con la recepción y verificación de los artículos recibidos. 
+Administración de compras, registrando y controlando los pedidos de compra a proveedores, con la recepción y verificación de los artículos recibidos. 
 
 Actualización del inventario en tiempo real a medida que se venden o reciben nuevos libros. Generación de informes detallados sobre el inventario, como los niveles de existencias, la rotación de productos y las tendencias de ventas. 
 
@@ -57,11 +57,11 @@ Organización de libros en categorías y etiquetas para facilitar la búsqueda y
 
 Control de acceso al sistema y gestión de permisos para garantizar que solo el personal autorizado pueda realizar cambios importantes en el inventario.
 
-Diagrama de Clases UML
+## Diagrama de Clases UML
 
 El diagrama de clases es ideal para representar la estructura estática del sistema, mostrando las clases, atributos, métodos y las relaciones entre ellas.
 
-Clases Principales:
+## Clases Principales:
 
 1. Libro
    Atributos:
