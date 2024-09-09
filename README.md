@@ -1,8 +1,8 @@
 # ProyectoPOO
 
-# Sistema de gestión de inventario de una librería
+## Sistema de gestión de inventario de una librería
 
-# Introducción
+## Introducción
 
 El sistema de gestión de inventario en una librería actúa como una herramienta fundamental para el funcionamiento diario de cualquier establecimiento dedicado a la distribución de libros. La principal finalidad de su desarrollo es mejorar y simplificar la administración de recursos esenciales, tales como los libros en existencia, la información sobre autores y categorías, la gestión de ventas y el seguimiento de clientes. Este proyecto se orienta a proporcionar una solución tecnológica eficaz que permita a los empleados de la librería mantener un control detallado y automatizado de sus inventarios, facilitando operaciones de ventas y atención al cliente de manera más rápida y precisa.
 
