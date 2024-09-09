@@ -1,3 +1,6 @@
+/*
+Implementación del código con un ejemplo
+*/
 import java.util.Arrays;
 import java.util.Date;
 
