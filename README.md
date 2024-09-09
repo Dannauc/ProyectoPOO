@@ -162,3 +162,5 @@ Casos de Uso Principales:
 Actores:
 - Empleado: Actor principal que interactúa con el sistema.
 - Cliente: Actor que genera acciones en el sistema a través de sus compras.
+
+
