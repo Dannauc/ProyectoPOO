@@ -1,11 +1,10 @@
-public class Empleado {
+public class Empleado extends Persona {
     private int empleadoID;
-    private String nombre;
     private String puesto;
 
-    public Empleado(int empleadoID, String nombre, String puesto) {
+    public Empleado(int empleadoID, String nombre, String email, String puesto) {
+        super(nombre, email);
         this.empleadoID = empleadoID;
-        this.nombre = nombre;
         this.puesto = puesto;
     }
 
@@ -15,5 +14,14 @@ public class Empleado {
 
     public void gestionarVentas(Venta venta) {
         System.out.println("Gestionando venta con total: " + venta.getTotal());
+    }
+
+    // Getters y Setters para el puesto
+    public String getPuesto() {
+        return puesto;
+    }
+
+    public void setPuesto(String puesto) {
+        this.puesto = puesto;
     }
 }
