@@ -1,16 +1,13 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Cliente {
+public class Cliente extends Persona {
     private int clienteID;
-    private String nombre;
-    private String email;
     private List<Venta> historialCompras;
 
     public Cliente(int clienteID, String nombre, String email) {
+        super(nombre, email);
         this.clienteID = clienteID;
-        this.nombre = nombre;
-        this.email = email;
         this.historialCompras = new ArrayList<>();
     }
 
@@ -19,8 +16,8 @@ public class Cliente {
     }
 
     public void modificarCliente(String nuevoNombre, String nuevoEmail) {
-        this.nombre = nuevoNombre;
-        this.email = nuevoEmail;
+        setNombre(nuevoNombre);
+        setEmail(nuevoEmail);
         System.out.println("Cliente modificado: " + nombre);
     }
 
